@@ -15,13 +15,16 @@
 	<arg value="ps"/>
 
 	<!-- Set a minimum PHP version for PHPCompatibility -->
-	<config name="testVersion" value="7.4-" />
+	<config name="testVersion" value="8.3-" />
 
 	<!-- Set the minimum support WordPress version -->
 	<config name="minimum_supported_wp_version" value="6.4"/>
 
 	<!-- Set the text domain -->
 	<config name="text_domain" value="mini-fair"/>
+
+	<!-- Ignore PHP-related errors. -->
+	<ini name="error_reporting" value="E_ALL &#38; ~E_DEPRECATED" />        
 
 	<!-- Use HM Coding Standards -->
 	<rule ref="vendor/humanmade/coding-standards">
