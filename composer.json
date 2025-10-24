@@ -1,6 +1,6 @@
 {
     "name": "fairpm/mini-fair-repo",
-    "description": "Transform your WP site into a FAIR Package Management Repository",
+    "description": "Transform your WP site into a FAIR Package Management Repository.",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
     "version": "0.1.0",
